@@ -106,3 +106,6 @@
 
 ### Then exit and close.
 
+
+# Check the jenkins.sh for a variation of the script if you happen to be integrating jenkins with ansible
+
