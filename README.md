@@ -100,7 +100,7 @@
 
 - `sudo chown -R $user:$user /home/$user/.ssh`
 
-### Copy the public key into the authorized_keys file
+### Copy the public key into the authorized_keys file. Note that the path to your public key might be different depending on where it id located
 
 - `sudo cp -R /home/ubuntu/.ssh/authorized_keys /home/$user/.ssh/authorized_keys`
 
