@@ -107,7 +107,6 @@
 ### Then exit and close.
 
 
-# Check the jenkins.sh for a variation of the script if you happen to be integrating jenkins with ansible
+## Check the jenkins.sh for a variation of the script if you happen to be integrating jenkins with ansible
 
-## Check the ssh-script if you just want to add new servers to yout set up 
-
+## if you already have your set up configured and you want to add new servers to your set up check the ssh script
