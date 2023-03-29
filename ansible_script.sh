@@ -1,6 +1,6 @@
 #!/usr/bin/sudo bash
 
-user="viden"
+user="ansible"
 
 #PASSWORD=cnl8989
 hosts=$(cat server.txt)
