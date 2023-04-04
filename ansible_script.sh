@@ -22,7 +22,7 @@ if id -u $user >/dev/null 2>&1;
       sleep 2
       sudo mkdir /home/$user/dev
       sudo touch /home/$user/dev/ansible.cfg
-      sudo echo -e "[defaults] \ninventory=hosts \nremote_user=viden \n[privilege_escalation] \nbecome=True \nbecome_method=sudo \nbecome_user=root \nbecome_ask_pass=False \nhost_key_checking = false" >> /home/$user/dev/ansible.cfg
+      sudo echo -e "[defaults] \ninventory=hosts \nremote_user=viden \nhost_key_checking = false \n[privilege_escalation] \nbecome=True \nbecome_method=sudo \nbecome_user=root \nbecome_ask_pass=False" >> /home/$user/dev/ansible.cfg
       sudo touch /home/$user/dev/hosts
       sudo cp -R /home/ubuntu/server.txt  /home/$user/dev/hosts
       sudo chown -R $user:$user /home/$user/
